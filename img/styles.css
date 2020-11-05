@@ -362,7 +362,7 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .line {
@@ -560,45 +560,60 @@ body {
 
 #location {
     background: var(--color-primary);
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 40px;
 }
 
 .location-container {
+    max-width: 725px;
     color: var(--color-secondary);
     text-align: center;
     display: flex;
     justify-content: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
 }
 
 .ubication {
-    background-color: yellowgreen;
-    width: 220px;
-    height: auto;
-    margin: 0 30px;
+  text-align: center;
+  margin: auto;
 }
 
-.ubication h5 {
-    font-size: 24px;
+.ubication h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-secondary);
+  text-align: left;
 }
 
 .ubication p {
-    line-height: 19px;
+  max-width: 250px;
+  margin-bottom: 40px;
+  text-align: left;
 }
 
-.maps {
-    background-color: white;
-    width: 300px;
-    height: 227px;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+/* footer */
 
+#footer {
+  background: var(--color-secondary);
+  width: 100%;
+  height: 60px;
 }
 
-.maps img {
-    width: 300px;
+.footer-container {
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-container h6 {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 20px auto;
+  vertical-align: middle;
 }
