@@ -454,39 +454,95 @@ body {
 /* main */
 
 .slider {
-    padding-top: 100px;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
+    padding-top: 75px;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
 }
 
 .slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
+	display: flex;
+	padding: 0;
+	width: 400%;
 
-    animation: cambio 10s infinite;
+	animation: cambio 15s infinite alternate linear;
 }
 
 .slider li {
-    width: 100%;
-    list-style: none;
+	width: 100%;
+	list-style: none;
 }
 
 .slider img {
-    width: 100%;
+	width: 100%;
 }
 
 @keyframes cambio {
-    0% { margin-left: 0; }
-    20% { margin-left: 0; }
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
 
-    25% { margin-left: -100; }
-    45% { margin-left: -100; }
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
 
-    50% { margin-left: -200; }
-    70% { margin-left: -200; }
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
 
-    75% { margin-left: -300; }
-    100% { margin-left: -300; }
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.main-container {
+    text-align: center;
+    margin: 40px auto;
+    line-height: 19px;
+}
+
+.main-container h3 {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--color-secondary);
+}
+
+.main-container p {
+    max-width: 500px;
+    padding: 0 50px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 40px;
+    color: var(--color-primary);
+}
+
+.main-container img {
+    width: 280px;
+}
+
+.carta {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carta h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: var(--color-secondary);
+}
+
+.carta p{
+    padding: 0 20px;
+}
+
+.entradas {
+    width: 300px;
+    height: auto;
+}
+
+.criollos {
+    width: 300px;
+    height: auto;
+}
+
+.pastas {
+    width: 300px;
+    height: auto;
 }
