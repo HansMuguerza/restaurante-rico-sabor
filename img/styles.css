@@ -518,7 +518,10 @@ body {
 
 .carta {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    align-content: center;
 }
 
 .carta h4 {
@@ -535,14 +538,20 @@ body {
 .entradas {
     width: 300px;
     height: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .criollos {
     width: 300px;
     height: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .pastas {
     width: 300px;
     height: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
