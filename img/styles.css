@@ -555,3 +555,50 @@ body {
     margin-bottom: 50px;
     margin-top: 10px;
 }
+
+/* location */
+
+#location {
+    background: var(--color-primary);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+.location-container {
+    color: var(--color-secondary);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ubication {
+    background-color: yellowgreen;
+    width: 220px;
+    height: auto;
+    margin: 0 30px;
+}
+
+.ubication h5 {
+    font-size: 24px;
+}
+
+.ubication p {
+    line-height: 19px;
+}
+
+.maps {
+    background-color: white;
+    width: 300px;
+    height: 227px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.maps img {
+    width: 300px;
+}
